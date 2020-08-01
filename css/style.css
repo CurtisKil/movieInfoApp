@@ -1,0 +1,27 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+@media (min-width: 960) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 200px;
+  }
+}
+
+#movies .col-md-3 h5 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#movies .col-md-3 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
